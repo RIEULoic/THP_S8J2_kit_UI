@@ -1,0 +1,126 @@
+ /*n'a aucun effet, à part faire overrider <body style="background-color:rgb(255,255, 255);text-align:center"> */
+/*body {                
+  background: rgb(177, 15, 15);
+} */
+
+
+.navbar-expand-lg{
+  background: #F72585;
+background: -moz-linear-gradient(left, #F72585 0%, #480ca8 100%);
+background: -webkit-linear-gradient(left, #F72585 0%, #480ca8 100%);
+background: linear-gradient(to right, #F72585 0%, #480ca8 100%);
+}
+
+.b-example-divider{
+  background: #F72585;
+  background: -moz-linear-gradient(left, #F72585 0%, #480ca8 100%);
+  background: -webkit-linear-gradient(left, #F72585 0%, #480ca8 100%);
+  background: linear-gradient(to right, #F72585 0%, #480ca8 100%);
+}
+
+.form{
+ 
+  background: #F72585;
+  background: -moz-linear-gradient(left, #F72585 0%, #480ca8 100%);
+  background: -webkit-linear-gradient(left, #F72585 0%, #480ca8 100%);
+  background: linear-gradient(to right, #F72585 0%, #480ca8 100%);
+  display: flex;
+  justify-content: center;
+
+  border-radius: 30%;
+ 
+}
+
+.success_button{
+  color: rgb(0, 0, 0); font-size: 14px; line-height: 14px; padding: 10px; border-radius: 50px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(135, 131, 209) 0%, rgb(170, 154, 186) 100%); box-shadow: rgba(0, 0, 0, 0.61) -8px 8px 18px 5px; border: 0px solid rgb(135, 131, 209); display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+
+
+ 
+
+
+/***************/
+/*   BOUTTONS  */
+/***************/
+
+.primary_button{
+  color: rgb(0, 0, 0); font-size: 14px; line-height: 14px; padding: 10px; border-radius: 50px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(135, 131, 209) 0%, rgb(170, 154, 186) 100%); box-shadow: rgba(0, 0, 0, 0.61) -8px 8px 18px 5px; border: 0px solid rgb(135, 131, 209); display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;}
+  .myButton:hover {
+  background: #8783D1; }
+  .myButton:active {
+  background: #AA9ABA;}
+
+.warning_button{
+  color: rgb(0, 0, 0); font-size: 14px; line-height: 14px; padding: 10px; border-radius: 50px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(221, 167, 61) 0%, rgb(162, 175, 71) 100%); box-shadow: rgba(0, 0, 0, 0.61) -8px 8px 18px 5px; border: 0px solid rgb(135, 131, 209); display: inline-block;}
+  .myButton:hover {
+  background: #DDA73D; }
+  .myButton:active {
+  background: #A2AF47;
+}
+
+.danger_button{
+  color: rgb(0, 0, 0); font-size: 14px; line-height: 14px; padding: 10px; border-radius: 50px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(160, 17, 22) 0%, rgb(211, 77, 58) 100%); box-shadow: rgba(0, 0, 0, 0.61) -8px 8px 18px 5px; border: 0px solid rgb(135, 131, 209); display: inline-block;}
+  .myButton:hover {
+  background: #A01116; }
+  .myButton:active {
+  background: #D34D3A;
+}
+
+.info_button{
+  color: rgb(0, 0, 0); font-size: 14px; line-height: 14px; padding: 10px; border-radius: 50px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(36, 182, 235) 0%, rgb(54, 255, 176) 100%); box-shadow: rgba(0, 0, 0, 0.61) -8px 8px 18px 5px; border: 0px solid rgb(135, 131, 209); display: inline-block;}
+  .myButton:hover {
+  background: #24B6EB; }
+  .myButton:active {
+  background: #36FFB0;
+}
+
+.success_button{
+  color: rgb(0, 0, 0); font-size: 14px; line-height: 14px; padding: 10px; border-radius: 50px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(58, 255, 45) 0%, rgb(80, 235, 141) 100%); box-shadow: rgba(0, 0, 0, 0.61) -8px 8px 18px 5px; border: 0px solid rgb(135, 131, 209); display: inline-block;}
+  .myButton:hover {
+  background: #3AFF2D; }
+  .myButton:active {
+  background: #50EB8D;
+}
+
+/* btn_outline  */
+/****************/
+
+
+.primary_button_outline{
+color: #8783D1; font-size: 14px; line-height: 14px; padding: 10px; border-radius: 50px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; box-shadow: rgba(0, 0, 0, 0.61) -8px 8px 18px 5px; border: 1px solid #8783D1; display: inline-block;}
+
+.warning_button_outline{
+color: #DDA73D; font-size: 14px; line-height: 14px; padding: 10px; border-radius: 50px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; box-shadow: rgba(0, 0, 0, 0.61) -8px 8px 18px 5px; border: 1px solid #DDA73D; display: inline-block;}
+
+
+.danger_button_outline{
+color: #A01116; font-size: 14px; line-height: 14px; padding: 10px; border-radius: 50px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; box-shadow: rgba(0, 0, 0, 0.61) -8px 8px 18px 5px; border: 1px solid #A01116; display: inline-block;}
+
+
+.info_button_outline{
+color: #24B6EB; font-size: 14px; line-height: 14px; padding: 10px; border-radius: 50px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; box-shadow: rgba(0, 0, 0, 0.61) -8px 8px 18px 5px; border: 1px solid #24B6EB; display: inline-block;}
+
+
+.success_button_outline{
+color: #3AFF2D; font-size: 14px; line-height: 14px; padding: 10px; border-radius: 50px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; box-shadow: rgba(0, 0, 0, 0.61) -8px 8px 18px 5px; border: 1px solid #3AFF2D; display: inline-block;}
+
+
+
+
+/****banner****/
+
+.bg-cover {
+    background-size: cover !important;
+}
+
+.card border-light mb-3{
+  background: #F72585;
+  background: -moz-linear-gradient(left, #F72585 0%, #480ca8 100%);
+  background: -webkit-linear-gradient(left, #F72585 0%, #480ca8 100%);
+  background: linear-gradient(to right, #F72585 0%, #480ca8 100%);
+}
